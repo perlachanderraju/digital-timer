@@ -1,0 +1,85 @@
+/* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(to right, #defafe, #cffcf1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  max-width: 1140px;
+}
+.image-bg {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  width: 320px;
+  background-size: cover;
+  background-position: center;
+}
+.image-bg2 {
+  background-color: #ffffff;
+  height: 80px;
+  width: 80px;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.button-bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btn-bg2 {
+  display: flex;
+}
+.btn-bg3 {
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+}
+.btn-bg4 {
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+}
+.btn1 {
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.btn2 {
+  margin-left: 10px;
+  margin-right: 10px;
+  background-image: linear-gradient(to right, #cffcf1, #00d9f5);
+  padding: 3px;
+  width: 50px;
+  border: none;
+  outline: none;
+}
+.btn3 {
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.icon {
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+}
